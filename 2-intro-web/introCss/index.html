@@ -7,28 +7,100 @@
         <title>Document</title>
     <!-- Para poner colores: Dentro del body: -->
         <style type = "text/css" media = "all">
+    /* Prioridad cero */
  *{
      font-size: 1rem;
     }          
 p.aviso{
-        color: blueviolet;
+        color: rgb(38, 60, 160);
     }
-    div.nuevo{
-        color: #9c2575d6;
+div.nuevo{
+        color: #0b7280d6;
     }
     </style>
-    <!--
+
+<style>
+    *.univ{
+    color: #00af0092
+    }
+</style>
+<style>
+
+.univ1{
+    color: #e6db48d6;
+}
+
+</style>
+
+
+    <!-- esto es un comentario -->
          <link rel="stylesheet" href="css/style.css">
-    -->
+         <link rel="stylesheet" href="css/selector.css">
+<!-- Selector ID, E#e, almohadilla -->
+<style>
+    p#alm1{
+      color: aquamarine;
+    }
+</style>
+<style>
+    #alm2{
+         color: yellow;
+    }
+</style>
+<style>
+    *#alm3{
+        color: chartreuse;
+    }
+</style>
+
+
+
+
 </head>
+<p>Esto es un párrafo 1</p>
+<div>
+<ul>
+    <li>
+        Esto es una lista
+        <p>Esto es otro párrafo interno</p>
+    </li>
+</ul>
+<p>Esto es otro párrafo 3</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
 <body>
+<p id="alm3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aspernatur dolores ab nostrum cum quae optio est. Saepe assumenda sed hic est enim tenetur, quia, eaque architecto quae exercitationem sequi!
+</p>
     <h1>Esto es una prueba</h1>
+
+<div class="univ1">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, fuga odit harum soluta accusantium magni culpa molestias veniam unde modi neque cupiditate voluptate, tempore, at dolores iusto nesciunt? Debitis, deleniti?
+</div>
+
+<p class="univ" >
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis tempore sint dicta excepturi. Aliquam non, aperiam rerum aliquid iste repudiandae dolor est iusto, minima accusantium delectus dolores, voluptas temporibus nostrum.
+</p>
+
+    <!-- primer selector de clase ó E.e-->
 <div class="nuevo">
 Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
  Corporis modi odio natus eum consequuntur obcaecati laudantium mollitia,<br> 
  similique voluptates veniam cum eligendi eos rerum, eius ad sed dolores illum facilis! <br>
 </div>
 
+<!-- selector de clase ó E.e-->
 <p class="aviso">
     Lorem ipsum dolor sit amet consectetur adipisicing elit.
 </p>
