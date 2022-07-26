@@ -1,0 +1,30 @@
+
+*{
+    font-size: 1.5rem;
+}
+
+header {
+    background-color: aquamarine;
+    height: 200px;
+    width: auto;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+    width: auto;
+    height: 600px;
+}
+footer {
+    background-color: rgb(138, 42, 179);
+    height: 150px;
+    width: auto;
+}
+
+.cuadro{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: goldenrod;
+}

@@ -1,0 +1,46 @@
+
+
+ul {
+    list-style-type: square;
+}
+
+ol{
+    list-style: decimal;
+}
+
+
+h1{
+    background-color: blueviolet;
+    width: fit-content;
+}
+div{display: inline-block;
+    background-color: aqua;
+    width: 200px;
+    /*width: 200px;
+    height: 200px;*/
+}
+
+a{
+    display: inline-block;
+    background-color: chartreuse;
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+}
+
+span {
+    font-size: large;
+    font-family: cursive;
+    font-weight: 700;
+    border: 1px dashed rgb(77, 77, 213);
+    /*background-color: red;*/
+}
+
+/*.sub {
+    border: 3px dotted red;
+} */
+
+/*ul > ul > li{
+    border: 3px dotted red;
+} */
+
