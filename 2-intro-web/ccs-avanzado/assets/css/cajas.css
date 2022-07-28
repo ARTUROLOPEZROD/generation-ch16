@@ -1,5 +1,5 @@
 
-.cuadro {
+/*.cuadro {
     height: 150px;
     width: 150px;
 
@@ -10,13 +10,13 @@
     
     /*margin: 50px 40px 30px 20px;*/
 
-    margin: 20px 40px;
+    /*margin: 20px 40px;
 
     padding: 50px 40px 30px 20px;
     
     /*display: inline-block;*/
 
-    border: 10px solid yellow;
+    /*border: 10px solid yellow;
 
     border-radius: 10px 20px 30px 40px;
 
@@ -27,13 +27,13 @@
     /*position: fixed;
     bottom: 0px;
     right: 0px;*/
-}
-.el-2{
+/*}
+/*.el-2{
     background-color: red;
     /*position: absolute;
     top: 0px;
     right: 0px;*/
-    position: sticky;
+    /*position: sticky;
     top: 0;
 
 }
@@ -42,7 +42,7 @@
     /*position: relative;
     bottom: 200px;
     left: 200px;*/
-}
+/*}
 .el-4{
     background-color: green;
     position: ;
