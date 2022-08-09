@@ -1,36 +1,25 @@
-const urlAleatorios = 'https://api.thecatapi.com/v1/images/search'
+`use strict`
 
+/*URL´s para consumir */
+const urlAleatorios = "https://api.thecatapi.com/v1/images/search"
 
+/*Elementos del DOM */
+const imagenGatito=document.getElementById("img-gatito");
+//console.log(imagenPerrito)
+const btn=document.getElementById("btn-gatos");
+console.log(btn);
 
-const imagenGatito = document.getElementById('img-gatito');
- console.log(imagenGatito); 
-
- const btn = document.getElementById('btn-Gatitos');
-console.log(btn); 
-
- /* eventos */
-
-btn.addEventListener('click', () => {
-console.log('boton presionado');
-
-   //agregar la funcionalidad
-   obtenerGatoAleatorio(urlAleatorios)
+/* Eventos*/
+btn.addEventListener("click",()=>{
+    console.log("Boton presionado");
+    //Agregar la funcionalidad
+    obtenerGatitoAleatorio(urlAleatorios)
 })
+async function obtenerGatitoAleatorio(url1){
+    const respuesta=await fetch(url1)
+    const datos=await respuesta.json()
 
 
- /* Funciones */
-
-async function obtenerGatoAleatorio(url){
-
-    const respuesta = await fetch(url)
-    const datos = await respuesta.json()
-
-    console.log(datos);           // devuelve los valores en general
-    console.log(datos.message);  //accede directoa al valor
-    console.log(datos.status);  // accedendirecto al valor
-
-    imagenGatito.src = datos[0].url;
-
+    imagenGatito.src=datos[0].url;
 }
-
- obtenerGatoAleatorio(urlAleatorios) 
+//obtenerPerritoAleatorio(urlAleatorios)
