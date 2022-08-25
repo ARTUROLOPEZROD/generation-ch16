@@ -10,9 +10,10 @@ public class EjemploSaludo {
         System.out.println(objSaludo.saludar0());
         System.out.println("este es otro objeto: -> " + objSaludo0.saludar0());
 
+        objSaludo.textoS = "Hola";
+        System.out.println("objSaludo = " + objSaludo);
 
-
-
-        //Saludo objSaludo = new Saludo();
+        objSaludo0.a = 4;
+        System.out.println("objSaludo0 = " + objSaludo0);
     }
 }
