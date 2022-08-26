@@ -1,17 +1,36 @@
 package MiEjemploJava;
 
 public class Persona {
-     private String nombre = "Arturo López";
+     private String nombre;
 
-     private int edad = 29;
+     private int edad;
 
-     private int nss = 1234567890;
+     private int nss;
 
 
-    public Persona(String nombre, int edad, int nss) {
+
+    public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    public void setEdad(int edad) {
         this.edad = edad;
+    }
+
+    public void setNss(int nss) {
         this.nss = nss;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public int getNss() {
+        return nss;
     }
 
     void caminar(){
