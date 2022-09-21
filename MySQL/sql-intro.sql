@@ -17,6 +17,9 @@ telefono CHAR(50) NOT NULL,
 direccion VARCHAR(150) NOT NULL
 );
 
+
+DROP TABLE clientes;
+
 INSERT INTO clientes (nombre, apellido, telefono, direccion)
 VALUES ('Pedro', 'Páramo', '5555555555', 'Comala'),
 ('Raul', 'Sanchez', '5555555555', 'Guadalajara'),
@@ -26,7 +29,7 @@ VALUES ('Pedro', 'Páramo', '5555555555', 'Comala'),
 SELECT * FROM clientes;
 
 DELETE FROM clientes
-WHERE cliente_id = 2;
+WHERE cliente_id = 4;
 
 
 
